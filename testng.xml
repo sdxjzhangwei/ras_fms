@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+	<parameter name ="username" value="18513199586"/>
+	<parameter name ="pass" value="111111"/>
+  <test name="Test1">
+    <classes>
+      <class name="com.mushishi.selenium.testCase.SuiteTestLogin"/>
+    </classes>
+  </test>
+</suite>

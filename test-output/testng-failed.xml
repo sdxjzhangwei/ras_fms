@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.mushishi.selenium.testCase.login">
+        <methods>
+          <include name="testLogin"/>
+          <include name="TestGoPay"/>
+          <include name="TestSureOrder"/>
+          <include name="testLoginHome"/>
+          <include name="TestAddCart"/>
+          <include name="loginTest"/>
+          <include name="clodse"/>
+        </methods>
+      </class> <!-- com.mushishi.selenium.testCase.login -->
+      <class name="com.mushishi.selenium.testCase.testCourseListPage">
+        <methods>
+          <include name="CourseList"/>
+        </methods>
+      </class> <!-- com.mushishi.selenium.testCase.testCourseListPage -->
+      <class name="com.mushishi.selenium.testCase.testLogin">
+        <methods>
+          <include name="loginpage"/>
+        </methods>
+      </class> <!-- com.mushishi.selenium.testCase.testLogin -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
